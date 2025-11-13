@@ -23,6 +23,8 @@ using System.IO;
 using System.Web.UI.HtmlControls;
 using AESEncdec;
 
+
+
 public partial class Alumni_Alumin_Loginpage : System.Web.UI.Page
 {
     crypto cpt = new crypto();
@@ -48,6 +50,16 @@ public partial class Alumni_Alumin_Loginpage : System.Web.UI.Page
     // }
     // }
 
+
+        /// <summary>
+        ///    Manish Kumar Singh  tesing Gut hub and  Git 
+        /// </summary>
+        /// <param name="response"></param>
+        /// <returns></returns>
+        ///  Added Some more changes and  update this from  git bash 
+        ///   
+
+
     private bool ValidateTurnstile(string response)
     {
         string secretKey = "0x4AAAAAAAyYmtmJC3_OVN2FYIh5a7GjI5A";
@@ -71,6 +83,10 @@ public partial class Alumni_Alumin_Loginpage : System.Web.UI.Page
             return false;
         }
     }
+
+
+
+    // ahhshfyte3hjkn
 
     protected void Page_Load(object sender, EventArgs e)
     {
