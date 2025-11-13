@@ -46,9 +46,7 @@
                 document.body.innerHTML = 'Offline Viewing not Allowed...pls be online.';
                 window.location = 'AppError.aspx';
             }
-
         }
-
         function onsubmitclick() {
             var f = document.getElementById("f");
             var username = "";
