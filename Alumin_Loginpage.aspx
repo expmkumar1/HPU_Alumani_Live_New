@@ -40,6 +40,7 @@
             }
         }
 
+
         function burstCache() {
             createCaptcha();
             if (!navigator.onLine) {
@@ -47,6 +48,8 @@
                 window.location = 'AppError.aspx';
             }
         }
+
+
         function onsubmitclick() {
             var f = document.getElementById("f");
             var username = "";
